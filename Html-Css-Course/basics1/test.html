@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Button Effect</title>
+  <style>
+    .three-d-button {
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 3px;
+      transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+      box-shadow: 0 5px 0 #005500, 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .three-d-button:active {
+      transform: translateY(5px);
+      box-shadow: 0 2px 0 #005500, 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <button class="three-d-button">3D Button</button>
+</body>
+</html>
