@@ -1,0 +1,74 @@
+.search_bar1 {
+    font-size: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: grey;
+    padding: 10px;
+}
+a {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.google_search_bar {
+    border-radius: 30px;
+    width: 500px;
+    padding: 12px;
+    border: none;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+
+}
+.linkedin_search_bar {
+    border-color: black;
+    height: 30px;
+    width: 300px;
+    border-width: 2px;
+    border-radius: 6px;
+
+}
+.linkedin_btn {
+    background-color: rgb(64, 64, 255);
+    color: white;
+    border: none;
+    width: 270px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 25px;
+ }
+.twitter_search_bar {
+    font-size: 18px;
+    border: none;
+    width: 300px;
+    vertical-align: middle;;
+    
+}
+ .twt_img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
+ }
+ .twt_img, .twitter_search_bar {
+    vertical-align: middle;
+    display: inline-block;
+ }
+
+ .twt_btn {
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 15px;
+    border: none;
+
+ }
